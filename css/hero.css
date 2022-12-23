@@ -1,3 +1,4 @@
+/*Giving my website it's parameters*/
 body{
 	margin: 0;
 	font-family: Helvetica, Arial, sans-serif;
@@ -5,6 +6,7 @@ body{
 	line-height: 30px;
 }
 
+/*Aligning the top of my Webpage*/
 header{
 	background-color:#D14635;
 	text-align: center ;
@@ -17,22 +19,28 @@ h1, h2{
 	font-family: 'Press Start 2P', cursive;
 }
 
+/*Header styles*/
+
 header h1{
 	color: white;
 	font-size: 50px;
 }
 
+/*Turning the avatar at the top from a square to a circle*/
 header img{
 	border-radius: 170px;
 	width: 300px;
 	border: 20px solid white;
 }
 
+/*Styling the main body of the website*/
 main{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 20px;
 }
+
+/*Adjusting the image size*/
 
 main img{
 	max-width: 100%;
@@ -44,6 +52,15 @@ h2{
 	margin: 40px 0 10px;
 }
 
+/*Styling the caption below*/
+
+p.caption{
+	color: #999999;
+	font-style: italic;
+	margin-top: 0;
+}
+
+/*Styling and coloring the links*/
 a{
 	color: #E70C19;
 }
@@ -53,6 +70,7 @@ a:hover{
 	background-color: #483A94;
 }
 
+/*Styling the footer*/
 footer{
 	background-color:#D14635;
 	text-align: center;
@@ -73,10 +91,4 @@ footer a:hover{
 	opacity: .5;
 	background-color: transparent;
 
-}
-
-p.caption{
-	color: #999999;
-	font-style: italic;
-	margin-top: 0;
 }
